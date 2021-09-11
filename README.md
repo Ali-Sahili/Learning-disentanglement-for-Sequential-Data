@@ -4,7 +4,7 @@ Implementation of VAE-based methods to learn disentangled representations for se
 
 #### Implemented Methods
 * [FHVAE](https://arxiv.org/abs/1709.07902)
-* [DSVAE](Disentangled Sequential Autoencoder)
+* [DSVAE](https://arxiv.org/abs/1803.02991)
     * DSAE model for videos (LPC-dataset)
     * DSAE model for audio (Timit-Dataset)
 * [SpeechVAE](https://arxiv.org/abs/1704.04222)
@@ -39,10 +39,7 @@ chmod +x run_preprocess.sh
 ### Experiments on LPC-Dataset
 
 <p float="center">
-  <img src="DSAE/DSAE_Images/results/latents_traversals_static.png" width="370" /> 
-</p>
-
-<p float="center">
+  <img src="DSAE/DSAE_Images/results/latents_traversals_static.png" width="370" padding="20"/> 
   <img src="DSAE/DSAE_Images/results/latents_traversals_dynamic.png" width="370" /> 
 </p>
 
