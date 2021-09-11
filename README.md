@@ -3,7 +3,7 @@ Implementation of VAE-based methods to learn disentangled representations for se
 
 
 #### Implemented Methods
-* [HFVAE](https://arxiv.org/abs/1709.07902)
+* [FHVAE](https://arxiv.org/abs/1709.07902)
 * [DSVAE](Disentangled Sequential Autoencoder)
     * DSAE model for videos (LPC-dataset)
     * DSAE model for audio (Timit-Dataset)
@@ -35,6 +35,16 @@ First, you should download TIMIT dataset from its [original site](https://data.d
 chmod +x run_preprocess.sh
 ./run_preprocess.sh
 ```
+
+### Experiments on LPC-Dataset
+
+<p float="center">
+  <img src="DSAE/DSAE_Images/results/latents_traversals_static.png" width="370" /> 
+</p>
+
+<p float="center">
+  <img src="DSAE/DSAE_Images/results/latents_traversals_dynamic.png" width="370" /> 
+</p>
 
 #### Acknowledgements
 1. FHVAE implementation by [Hsu](https://github.com/wnhsu/FactorizedHierarchicalVAE/).
