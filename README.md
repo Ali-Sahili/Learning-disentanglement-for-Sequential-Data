@@ -37,9 +37,14 @@ chmod +x run_preprocess.sh
 ```
 
 ### Experiments on LPC-Dataset
-
+In order to compare the effects of different losses added to the standrad DSAE architecture, the following two figures present the effects of adding a random vector to the static latent variables (left) and to the dynamic latent variables (right). First row presents original data,
+second row corresponds to the original DSAE, third, fourth and fifth rows correspond to
+DSAE with SCC loss for lamda equal to 1., 10. and 100. respectively. The next three
+row represent DSAE with cyclic loss for lamda equal to 1., 0.1 and 10. respectively. The
+last four rows correspond to DSAE with mutual MI loss, MI with cyclic losses, MI with
+SCC losses and MI, SCC and Cyclic losses respectively.
 <p float="center">
-  <img src="DSAE/DSAE_Images/results/latents_traversals_static.png" width="370" padding="20"/> 
+  <img padding="50" src="DSAE/DSAE_Images/results/latents_traversals_static.png" width="370" padding="20"/> 
   <img src="DSAE/DSAE_Images/results/latents_traversals_dynamic.png" width="370" /> 
 </p>
 
