@@ -48,6 +48,7 @@ SCC losses and MI, SCC and Cyclic losses respectively.
   <img src="DSAE/DSAE_Images/results/latents_traversals_dynamic.png" width="370" /> 
 </p>
 
+Here, some curves show the training loss of different methods comparing their performance:
 
 <p float="center"> 
   <img src="DSAE/DSAE_Images/results/losses/SCC_vs_Cyclic/DSVAE_Full_q_SCC_vs_Cyclic_total_loss.png" /> 
