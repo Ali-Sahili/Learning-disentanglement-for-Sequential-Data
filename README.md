@@ -48,6 +48,11 @@ SCC losses and MI, SCC and Cyclic losses respectively.
   <img src="DSAE/DSAE_Images/results/latents_traversals_dynamic.png" width="370" /> 
 </p>
 
+
+<p float="center"> 
+  <img src="DSAE/DSAE_Images/results/losses/SCC_vs_Cyclic/DSVAE_Full_q_SCC_vs_Cyclic_total_loss.png" /> 
+</p>
+
 #### Acknowledgements
 1. FHVAE implementation by [Hsu](https://github.com/wnhsu/FactorizedHierarchicalVAE/).
 2. DSVAE implementation by [mazzzystar](https://github.com/mazzzystar/Disentangled-Sequential-Autoencoder).
