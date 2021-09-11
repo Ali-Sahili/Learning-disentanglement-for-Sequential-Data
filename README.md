@@ -30,7 +30,7 @@ The experiments were performed using Python 3.8.5 with the following Python pack
 - [librosa](https://pypi.org/project/librosa/) == 0.6.3
 
 ### Timit preprocessing
-First, you should download TIMIT dataset from its [original site](https://data.deepai.org/timit.zip), then run the following bash to preprocess it based on the approach adopted in [HFVAE paper](https://arxiv.org/abs/1709.07902):
+To work on Timit dataset, you first should download TIMIT dataset from its [original site](https://data.deepai.org/timit.zip), then run the following bash to preprocess it based on the approach adopted in [FHVAE paper](https://arxiv.org/abs/1709.07902):
 ```
 chmod +x run_preprocess.sh
 ./run_preprocess.sh
